@@ -1,0 +1,87 @@
+/**
+<p>
+Given many <code>words</code>, <code>words[i]</code> has weight <code>i</code>.
+</p><p>
+Design a class <code>WordFilter</code> that supports one function, <code>WordFilter.f(String prefix, String suffix)</code>.
+It will return the word with given <code>prefix</code> and <code>suffix</code> with maximum weight.  If no word exists, return -1.
+</p>
+
+<p><b>Examples:</b><br />
+<pre>
+<b>Input:</b>
+WordFilter(["apple"])
+WordFilter.f("a", "e") // returns 0
+WordFilter.f("b", "") // returns -1
+</pre></p>
+
+<p><b>Note:</b><br>
+<ol>
+<li><code>words</code> has length in range <code>[1, 15000]</code>.</li>
+<li>For each test case, up to <code>words.length</code> queries <code>WordFilter.f</code> may be made.</li>
+<li><code>words[i]</code> has length in range <code>[1, 10]</code>.</li>
+<li><code>prefix, suffix</code> have lengths in range <code>[0, 10]</code>.</li>
+<li><code>words[i]</code> and <code>prefix, suffix</code> queries consist of lowercase letters only.</li>
+</ol>
+</p><p>给定多个&nbsp;<code>words</code>，<code>words[i]</code>&nbsp;的权重为&nbsp;<code>i</code>&nbsp;。</p>
+
+<p>设计一个类&nbsp;<code>WordFilter</code>&nbsp;实现函数<code>WordFilter.f(String prefix, String suffix)</code>。这个函数将返回具有前缀&nbsp;<code>prefix</code>&nbsp;和后缀<code>suffix</code>&nbsp;的词的最大权重。如果没有这样的词，返回 -1。</p>
+
+<p><strong>例子:</strong></p>
+
+<pre>
+<strong>输入:</strong>
+WordFilter([&quot;apple&quot;])
+WordFilter.f(&quot;a&quot;, &quot;e&quot;) // 返回 0
+WordFilter.f(&quot;b&quot;, &quot;&quot;) // 返回 -1
+</pre>
+
+<p><strong>注意:</strong></p>
+
+<ol>
+	<li><code>words</code>的长度在<code>[1, 15000]</code>之间。</li>
+	<li>对于每个测试用例，最多会有<code>words.length</code>次对<code>WordFilter.f</code>的调用。</li>
+	<li><code>words[i]</code>的长度在<code>[1, 10]</code>之间。</li>
+	<li><code>prefix, suffix</code>的长度在<code>[0, 10]</code>之前。</li>
+	<li><code>words[i]</code>和<code>prefix, suffix</code>只包含小写字母。</li>
+</ol>
+<p>给定多个&nbsp;<code>words</code>，<code>words[i]</code>&nbsp;的权重为&nbsp;<code>i</code>&nbsp;。</p>
+
+<p>设计一个类&nbsp;<code>WordFilter</code>&nbsp;实现函数<code>WordFilter.f(String prefix, String suffix)</code>。这个函数将返回具有前缀&nbsp;<code>prefix</code>&nbsp;和后缀<code>suffix</code>&nbsp;的词的最大权重。如果没有这样的词，返回 -1。</p>
+
+<p><strong>例子:</strong></p>
+
+<pre>
+<strong>输入:</strong>
+WordFilter([&quot;apple&quot;])
+WordFilter.f(&quot;a&quot;, &quot;e&quot;) // 返回 0
+WordFilter.f(&quot;b&quot;, &quot;&quot;) // 返回 -1
+</pre>
+
+<p><strong>注意:</strong></p>
+
+<ol>
+	<li><code>words</code>的长度在<code>[1, 15000]</code>之间。</li>
+	<li>对于每个测试用例，最多会有<code>words.length</code>次对<code>WordFilter.f</code>的调用。</li>
+	<li><code>words[i]</code>的长度在<code>[1, 10]</code>之间。</li>
+	<li><code>prefix, suffix</code>的长度在<code>[0, 10]</code>之前。</li>
+	<li><code>words[i]</code>和<code>prefix, suffix</code>只包含小写字母。</li>
+</ol>
+**/
+
+
+class WordFilter {
+
+    public WordFilter(String[] words) {
+        
+    }
+    
+    public int f(String prefix, String suffix) {
+        
+    }
+}
+
+/**
+ * Your WordFilter object will be instantiated and called as such:
+ * WordFilter obj = new WordFilter(words);
+ * int param_1 = obj.f(prefix,suffix);
+ */

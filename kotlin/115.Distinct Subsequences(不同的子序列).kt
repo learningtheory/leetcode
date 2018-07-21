@@ -1,0 +1,132 @@
+/**
+<p>Given a string <strong>S</strong> and a string <strong>T</strong>, count the number of distinct subsequences of <strong>S</strong> which equals <strong>T</strong>.</p>
+
+<p>A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, <code>&quot;ACE&quot;</code> is a subsequence of <code>&quot;ABCDE&quot;</code> while <code>&quot;AEC&quot;</code> is not).</p>
+
+<p><strong>Example 1:</strong></p>
+
+<pre>
+<strong>Input: </strong>S = <code>&quot;rabbbit&quot;</code>, T = <code>&quot;rabbit&quot;
+<strong>Output:</strong>&nbsp;3
+</code><strong>Explanation:
+</strong>
+As shown below, there are 3 ways you can generate &quot;rabbit&quot; from S.
+(The caret symbol ^ means the chosen letters)
+
+<code>rabbbit</code>
+^^^^ ^^
+<code>rabbbit</code>
+^^ ^^^^
+<code>rabbbit</code>
+^^^ ^^^
+</pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre>
+<strong>Input: </strong>S = <code>&quot;babgbag&quot;</code>, T = <code>&quot;bag&quot;
+<strong>Output:</strong>&nbsp;5
+</code><strong>Explanation:
+</strong>
+As shown below, there are 5 ways you can generate &quot;bag&quot; from S.
+(The caret symbol ^ means the chosen letters)
+
+<code>babgbag</code>
+^^ ^
+<code>babgbag</code>
+^^    ^
+<code>babgbag</code>
+^    ^^
+<code>babgbag</code>
+  ^  ^^
+<code>babgbag</code>
+    ^^^
+</pre>
+<p>给定一个字符串&nbsp;<strong>S&nbsp;</strong>和一个字符串&nbsp;<strong>T</strong>，计算在 <strong>S</strong> 的子序列中 <strong>T</strong> 出现的个数。</p>
+
+<p>一个字符串的一个子序列是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，<code>&quot;ACE&quot;</code>&nbsp;是&nbsp;<code>&quot;ABCDE&quot;</code>&nbsp;的一个子序列，而&nbsp;<code>&quot;AEC&quot;</code>&nbsp;不是）</p>
+
+<p><strong>示例&nbsp;1:</strong></p>
+
+<pre><strong>输入: </strong>S = <code>&quot;rabbbit&quot;</code>, T = <code>&quot;rabbit&quot;
+<strong>输出:</strong>&nbsp;3
+</code><strong>解释:
+</strong>
+如下图所示, 有 3 种可以从 S 中得到 <code>&quot;rabbit&quot; 的方案</code>。
+(上箭头符号 ^ 表示选取的字母)
+
+<code>rabbbit</code>
+^^^^ ^^
+<code>rabbbit</code>
+^^ ^^^^
+<code>rabbbit</code>
+^^^ ^^^
+</pre>
+
+<p><strong>示例&nbsp;2:</strong></p>
+
+<pre><strong>输入: </strong>S = <code>&quot;babgbag&quot;</code>, T = <code>&quot;bag&quot;
+<strong>输出:</strong>&nbsp;5
+</code><strong>解释:
+</strong>
+如下图所示, 有 5 种可以从 S 中得到 <code>&quot;bag&quot; 的方案</code>。 
+(上箭头符号 ^ 表示选取的字母)
+
+<code>babgbag</code>
+^^ ^
+<code>babgbag</code>
+^^    ^
+<code>babgbag</code>
+^    ^^
+<code>babgbag</code>
+  ^  ^^
+<code>babgbag</code>
+    ^^^</pre>
+<p>给定一个字符串&nbsp;<strong>S&nbsp;</strong>和一个字符串&nbsp;<strong>T</strong>，计算在 <strong>S</strong> 的子序列中 <strong>T</strong> 出现的个数。</p>
+
+<p>一个字符串的一个子序列是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，<code>&quot;ACE&quot;</code>&nbsp;是&nbsp;<code>&quot;ABCDE&quot;</code>&nbsp;的一个子序列，而&nbsp;<code>&quot;AEC&quot;</code>&nbsp;不是）</p>
+
+<p><strong>示例&nbsp;1:</strong></p>
+
+<pre><strong>输入: </strong>S = <code>&quot;rabbbit&quot;</code>, T = <code>&quot;rabbit&quot;
+<strong>输出:</strong>&nbsp;3
+</code><strong>解释:
+</strong>
+如下图所示, 有 3 种可以从 S 中得到 <code>&quot;rabbit&quot; 的方案</code>。
+(上箭头符号 ^ 表示选取的字母)
+
+<code>rabbbit</code>
+^^^^ ^^
+<code>rabbbit</code>
+^^ ^^^^
+<code>rabbbit</code>
+^^^ ^^^
+</pre>
+
+<p><strong>示例&nbsp;2:</strong></p>
+
+<pre><strong>输入: </strong>S = <code>&quot;babgbag&quot;</code>, T = <code>&quot;bag&quot;
+<strong>输出:</strong>&nbsp;5
+</code><strong>解释:
+</strong>
+如下图所示, 有 5 种可以从 S 中得到 <code>&quot;bag&quot; 的方案</code>。 
+(上箭头符号 ^ 表示选取的字母)
+
+<code>babgbag</code>
+^^ ^
+<code>babgbag</code>
+^^    ^
+<code>babgbag</code>
+^    ^^
+<code>babgbag</code>
+  ^  ^^
+<code>babgbag</code>
+    ^^^</pre>
+**/
+
+
+class Solution {
+    fun numDistinct(s: String, t: String): Int {
+        
+    }
+}
