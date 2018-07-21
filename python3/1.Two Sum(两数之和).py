@@ -39,10 +39,29 @@ return [<strong>0</strong>, <strong>1</strong>].
 
 
 class Solution:
-    def twoSum(self, nums, target):
+    def twoSum(self, nums: list, target):
         """
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
         """
-        
+        dic = {}
+        for i, num in enumerate(nums):
+            c = target - num
+            if dic.get(c) is not None:
+                return [nums.index(c), i]
+            else:
+                dic[num] = i
+
+        raise Exception('No two sum solution')
+
+
+if __name__ == '__main__':
+    # 出现相同的元素
+    lis = [3, 3, 3, 3, 44, 5, 3]
+    tar = 6
+
+    # [3, 2, 4]
+    # 6
+    # 在使用索引实现位置的时候要注意了，in的使用会出现 [0,0]
+    print(Solution().twoSum(lis, tar))
