@@ -43,6 +43,7 @@ class ListNode:
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode):
         """
+        1562 个通过测试用例
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
