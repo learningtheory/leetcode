@@ -55,6 +55,19 @@ class Solution:
 
         raise Exception('No two sum solution')
 
+    def twoSum1(self, nums: list, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        for i, num in enumerate(nums):
+            c = target - num
+            if c in nums and nums.index(c) != i:
+                return [nums.index(c), i]
+
+        raise Exception('No two sum solution')
+
 
 if __name__ == '__main__':
     # 出现相同的元素
